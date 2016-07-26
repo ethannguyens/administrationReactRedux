@@ -7,6 +7,6 @@ import './styles/styles.css'; //webpack import css
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 render(
-  <Route history="{browserHistory}" routes={routes}/>,
+  <Router history={browserHistory} routes={routes}/>,
   document.getElementById('app')
 );
