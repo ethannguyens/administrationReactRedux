@@ -2,6 +2,6 @@
 .gitignore
 node_modules
 .idea/
-.npm-debug.log
+npm-debug.log
 .editorconfig
 react-redux-react-router-es6
